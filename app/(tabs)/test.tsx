@@ -15,6 +15,8 @@ const Test = () => {
       setImage(result.assets[0].uri); // Récupère l'URI de l'image sélectionnée.
     } else {
       Alert.alert("No image selected");
+      console.log("not slelell");
+      
     }
   };
 
